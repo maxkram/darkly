@@ -1,0 +1,1 @@
+The website allows redirection to any URL specified in the ‘url’ parameter without validation, enabling phishing attacks
