@@ -1,0 +1,7 @@
+http://10.39.42.166/?page=survey
+
+on the page put the pointer to a grade, right button, 'inspect',
+change the value from '10' to bigint (10000000000000), then select it
+(<option value='10'>10</option)
+
+https://owasp.org/www-community/attacks/Web_Parameter_Tampering

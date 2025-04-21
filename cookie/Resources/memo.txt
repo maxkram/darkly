@@ -1,0 +1,16 @@
+Cookie vulnerabilities often involve insecure cookie handling,
+such as cookies lacking the HttpOnly, Secure, or SameSite flags,
+making them vulnerable to theft via XSS or man-in-the-middle attacks.
+
+How to Exploit:
+
+Open the browser’s developer tools (F12 → Application → Cookies).
+Check the cookies for the website. Look for missing flags:
+HttpOnly: Prevents JavaScript access.
+Secure: Ensures the cookie is only sent over HTTPS.
+SameSite: Prevents cross-site request forgery (CSRF).
+If any flag is missing, note it as a vulnerability.
+
+'i_am_admin' cookie: 68934a3e9455fa72420237eb05902327
+Google the value and change to the opposite (from false to true),
+insert and get the flag
