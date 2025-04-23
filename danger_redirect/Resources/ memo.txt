@@ -1,7 +1,0 @@
-The website allows (the facebook icon in the bottom of the first page)
-redirection to any URL specified in the ‘url’ parameter without validation,
-enabling phishing attacks
-
-http://10.39.42.166/index.php?page=redirect&site=admin
-
-https://cheatsheetseries.owasp.org/cheatsheets/Unvalidated_Redirects_and_Forwards_Cheat_Sheet.html
